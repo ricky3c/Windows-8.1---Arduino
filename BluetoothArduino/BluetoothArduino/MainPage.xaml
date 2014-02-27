@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="BluetoothArduino.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BluetoothArduino"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="btnbuscar" Content="Buscar" HorizontalAlignment="Left" Margin="80,237,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button x:Name="btncancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="169,237,0,0" VerticalAlignment="Top" Click="btncancelar_Click"/>
+        <Button x:Name="btndesconectar" Content="Desconectar" HorizontalAlignment="Left" Margin="273,237,0,0" VerticalAlignment="Top" Click="btndesconectar_Click"/>
+        <ProgressBar x:Name="progress" HorizontalAlignment="Left" Height="3" Margin="83,213,0,0" VerticalAlignment="Top" Width="303"/>
+        <TextBlock x:Name="txtconsola" HorizontalAlignment="Left" Margin="83,279,0,0" TextWrapping="Wrap" Text="Exepciones" VerticalAlignment="Top" Height="53" Width="303"/>
+        <Button x:Name="btnled" Content="Led" HorizontalAlignment="Left" Margin="424,212,0,0" VerticalAlignment="Top" Click="btnled_Click"/>
+        <Button x:Name="btnmotor" Content="Motor" HorizontalAlignment="Left" Margin="545,212,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBlock x:Name="txtled" HorizontalAlignment="Left" Margin="427,252,0,0" TextWrapping="Wrap" Text="Estado Led" VerticalAlignment="Top" Height="32" Width="96"/>
+        <TextBlock x:Name="txtmotor" HorizontalAlignment="Left" Margin="548,252,0,0" TextWrapping="Wrap" Text="Estado Motor" VerticalAlignment="Top" Height="32" Width="98"/>
+        <TextBlock HorizontalAlignment="Left" Margin="73,81,0,0" TextWrapping="Wrap" Text="Ejemplo Bluetooth Arduino" VerticalAlignment="Top" FontSize="48"/>
+        <TextBlock HorizontalAlignment="Left" Margin="594,727,0,0" TextWrapping="Wrap" Text="Desarrollado: Ricardo Romo Gonzalez" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
